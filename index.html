@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACNH - What's in Season?</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.21/angular-material.min.css"/>
+    <link rel="stylesheet" href="css\app.css"/>
+</head>
+<body ng-app="myApp" style="">
+<div class="full-height" ng-controller="acnh-seasons">
+    <md-content class="full-height" md-theme="{{theme}}" md-theme-watch="true">
+        <div layout="row">
+            <span flex-gt-md flex-md="0"></span>
+            <div layout="row">
+                <md-button class="md-icon-button critter-button"
+                           aria-label="Fish"
+                           ng-click="changeShowFish()">
+                    <md-icon ng-if="showFish" md-svg-icon="images/misc/fish.svg"></md-icon>
+                    <md-icon ng-if="!showFish" md-svg-icon="images/misc/fish-off.svg"></md-icon>
+                </md-button>
+                <md-button class="md-icon-button critter-button"
+                           aria-label="Bugs"
+
+                           ng-click="changeShowBugs()">
+                    <md-icon ng-if="showBugs" md-svg-icon="images/misc/bug.svg"></md-icon>
+                    <md-icon ng-if="!showBugs" md-svg-icon="images/misc/bug-outline.svg"></md-icon>
+                </md-button>
+            </div>
+            <div class="hemisphere">
+                <md-button ng-disabled="disableHemiButton" ng-click="changeHemisphere()">
+                    <label>{{ hemisphere }}</label>
+                </md-button>
+            </div>
+            <div layout="row">
+                <md-icon md-svg-icon="images/misc/white-balance-sunny.svg"></md-icon>
+                <md-switch
+                        class="mode-switch"
+                        style="margin-right: 16px;"
+                        aria-label="Dark mode"
+                        ng-change="changeTheme()"
+                        ng-model="themeSwitch">
+                </md-switch>
+                <md-icon class="moon-icon" md-svg-icon="images/misc/weather-night.svg"></md-icon>
+            </div>
+        </div>
+        <div layout="column" layout-align="center center">
+            <h2 class="no-margin-top">{{ currentDate }}</h2>
+            <h2>{{ currentTime }}</h2>
+            <md-input-container>
+                <label>Search</label>
+                <input ng-model="critterSearch">
+            </md-input-container>
+        </div>
+        <div layout-gt-md="row" layout-md="column" layout-align="center center" layout-wrap>
+            <div ng-repeat="critter in critterList | filter:critterSearch | orderBy : 'name'"
+                 ng-if="isMonthInSeason(critter.months) && isTimeInSeason(critter.times) && hideCritter(critter)">
+                <md-card ng-class="{'critter-card' : $mdMedia('gt-md')}" ng-click="">
+                    <md-card-title>
+                        <md-card-title-text>
+                            <span class="md-headline trim-info">
+                                <md-tooltip>{{ critter.name }}</md-tooltip>
+                                {{ critter.name }}
+                            </span>
+                            <span class="md-subhead">Location: {{ critter.location }}</span>
+                            <span class="md-subhead" ng-if="critter.shadowSize">
+                                Shadow Size: {{ critter.shadowSize }}
+                            </span>
+                            <span class="md-subhead">Value: {{ critter.value | currency }}</span>
+                        </md-card-title-text>
+                        <md-card-title-media>
+                            <div class="critter-image" ng-if="critter.image.length > 0">
+                                <img ng-src="{{ critter.image }}">
+                            </div>
+                            <div class="critter-image" ng-if="critter.image.length < 1">
+                                <img ng-src="images/misc/unknown.svg">
+                            </div>
+                        </md-card-title-media>
+                    </md-card-title>
+                </md-card>
+            </div>
+        </div>
+    </md-content>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.9/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-animate/1.7.9/angular-animate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular-aria@1.7.9/angular-aria.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.7.9/angular-messages.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.21/angular-material.min.js"></script>
+<script src="js\app.js"></script>
+</body>
+</html>

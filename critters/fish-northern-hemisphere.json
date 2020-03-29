@@ -1,0 +1,724 @@
+[
+    {
+        "name": "Bitterling",
+        "location": "River",
+        "shadowSize": "Smallest",
+        "value": 900,
+        "times": [ "All day" ],
+        "months": [ 11, 12, 1, 2, 3 ],
+        "image": "images/fish/Bitterling_HHD_Icon.png"
+    },
+    {
+        "name": "Pale Chub",
+        "location": "River",
+        "shadowSize": "Smallest",
+        "value": 160,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Pale_Chub_HHD_Icon.png"
+    },
+    {
+        "name": "Crucian Carp",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 160,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Crucian_Carp_HHD_Icon.png"
+    },
+    {
+        "name": "Dace",
+        "location": "River",
+        "shadowSize": "Medium",
+        "value": 240,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Dace_HHD_Icon.png"
+    },
+    {
+        "name": "Carp",
+        "location": "Pond",
+        "shadowSize": "Large",
+        "value": 300,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Carp_HHD_Icon.png"
+    },
+    {
+        "name": "Koi",
+        "location": "Pond",
+        "shadowSize": "Large",
+        "value": 4000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Koi_HHD_Icon.png"
+    },
+    {
+        "name": "Goldfish",
+        "location": "Pond",
+        "shadowSize": "Smallest",
+        "value": 1300,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Goldfish_HHD_Icon.png"
+    },
+    {
+        "name": "Pop-eyed Goldfish",
+        "location": "Pond",
+        "shadowSize": "Smallest",
+        "value": 1300,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Popeyed_Goldfish_HHD_Icon.png"
+
+    },
+    {
+        "name": "Ranchu Goldfish",
+        "location": "Pond",
+        "shadowSize": "Small",
+        "value": 4500,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Ranchu_Goldfish_NH_Icon.png"
+    },
+    {
+        "name": "Killifish",
+        "location": "Pond",
+        "shadowSize": "Smallest",
+        "value": 0,
+        "times": [ "All day" ],
+        "months": [ 4, 5, 6, 7, 8 ],
+        "image": "images/fish/Killifish_HHD_Icon.png"
+
+    },
+    {
+        "name": "Crawfish",
+        "location": "Pond",
+        "shadowSize": "Medium",
+        "value": 200,
+        "times": [ "All day" ],
+        "months": [ 4, 5, 6, 7, 8, 9 ],
+        "image": "images/fish/Crawfish_HHD_Icon.png"
+    },
+    {
+        "name": "Soft-shelled Turtle",
+        "location": "River",
+        "shadowSize": "Unknown",
+        "value": 3750,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 8, 9 ],
+        "image": "images/fish/Soft-Shelled_Turtle_HHD_Icon.png"
+    },
+    {
+        "name": "Snapping Turtle",
+        "location": "River",
+        "shadowSize": "Unknown",
+        "value": 5000,
+        "times": [ "9 AM - 4 AM" ],
+        "months": [ 4, 5, 6, 7, 8, 9, 10 ],
+        "image": "images/fish/Snapping_Turtle_NH_Icon.png"
+    },
+    {
+        "name": "Tadpole",
+        "location": "Pond",
+        "shadowSize": "Smallest",
+        "value": 100,
+        "times": [ "All day" ],
+        "months": [ 3, 4, 5, 6, 7 ],
+        "image": "images/fish/Tadpole_HHD_Icon.png"
+    },
+    {
+        "name": "Frog",
+        "location": "Pond",
+        "shadowSize": "Small",
+        "value": "Unknown",
+        "times": [ "All day" ],
+        "months": [ 5, 6, 7, 8 ],
+        "image": "images/fish/Frog_HHD_Icon.png"
+    },
+    {
+        "name": "Freshwater Goby",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 400,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Freshwater_Goby_HHD_Icon.png"
+    },
+    {
+        "name": "Loach",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 400,
+        "times": [ "All day" ],
+        "months": [ 3, 4, 5 ],
+        "image": "images/fish/Loach_HHD_Icon.png"
+    },
+    {
+        "name": "Catfish",
+        "location": "Pond",
+        "shadowSize": "Unknown",
+        "value": 800,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 5, 6, 7, 8, 9, 10 ],
+        "image": "images/fish/Catfish_HHD_Icon.png"
+    },
+    {
+        "name": "Giant Snakehead",
+        "location": "Pond",
+        "shadowSize": "X Large",
+        "value": 0,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 6, 7, 8],
+        "image": "images/fish/Giant_Snakehead_HHD_Icon.png"
+    },
+    {
+        "name": "Bluegill",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 180,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Bluegill_HHD_Icon.png"
+    },
+    {
+        "name": "Yellow Perch",
+        "location": "River",
+        "shadowSize": "Medium",
+        "value": 300,
+        "times": [ "All day" ],
+        "months": [ 10, 11, 12, 1, 2, 3 ],
+        "image": "images/fish/Yellow_Perch_HHD_Icon.png"
+    },
+    {
+        "name": "Black Bass",
+        "location": "River",
+        "shadowSize": "Large",
+        "value": 400,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Black_Bass_HHD_Icon.png"
+    },
+    {
+        "name": "Tilapia",
+        "location": "River",
+        "shadowSize": "Unknown",
+        "value": 800,
+        "times": [ "All day" ],
+        "months": [ 6, 7, 8, 9, 10],
+        "image": "images/fish/Tilapia_NH_Icon.png"
+    },
+    {
+        "name": "Pike",
+        "location": "River",
+        "shadowSize": "X Large",
+        "value": 1800,
+        "times": [ "All day" ],
+        "months": [ 9, 10, 11, 12],
+        "image": "images/fish/Pike_HHD_Icon.png"
+    },
+    {
+        "name": "Pond Smelt",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 0,
+        "times": [ "All day" ],
+        "months": [ 12, 1, 2 ],
+        "image": "images/fish/Pond_Smelt_HHD_Icon.png"
+    },
+    {
+        "name": "Sweetfish",
+        "location": "River",
+        "shadowSize": "Medium",
+        "value": 900,
+        "times": [ "All day" ],
+        "months": [ 7, 8, 9 ],
+        "image": "images/fish/Sweetfish_HHD_Icon.png"
+    },
+    {
+        "name": "Cherry Salmon",
+        "location": "River",
+        "shadowSize": "Medium",
+        "value": 1000,
+        "times": [ "All day" ],
+        "months": [ 3, 4, 5, 6, 9, 10, 11 ],
+        "image": "images/fish/Cherry_Salmon_HHD_Icon.png"
+    },
+    {
+        "name": "Char",
+        "location": "River/Pond",
+        "shadowSize": "Medium",
+        "value": 3800,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 3, 4, 5, 6, 9, 10, 11 ],
+        "image": "images/fish/Char_HHD_Icon.png"
+    },
+    {
+        "name": "Golden Trout",
+        "location": "River (Clifftop)",
+        "shadowSize": "Large",
+        "value": 15000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 3, 4, 5, 6, 9, 10, 11 ],
+        "image": "images/fish/Golden_Trout_NH_Icon.png"
+    },
+    {
+        "name": "Stringfish",
+        "location": "River (Clifftop)",
+        "shadowSize": "Largest",
+        "value": 15000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 12, 1, 2, 3 ],
+        "image": "images/fish/Stringfish_HHD_Icon.png"
+    },
+    {
+        "name": "Salmon",
+        "location": "River (mouth)",
+        "shadowSize": "Small",
+        "value": 700,
+        "times": [ "All day" ],
+        "months": [ 9 ],
+        "image": "images/fish/Salmon_HHD_Icon.png"
+    },
+    {
+        "name": "King Salmon",
+        "location": "River (mouth)",
+        "shadowSize": "Smallest",
+        "value": 1800,
+        "times": [ "All day" ],
+        "months": [ 9 ],
+        "image": "images/fish/King_Salmon_HHD_Icon.png"
+    },
+    {
+        "name": "Mitten Crab",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 2000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 9, 10, 11 ],
+        "image": "images/fish/Mitten_Crab_HHD_Icon.png"
+    },
+    {
+        "name": "Guppy",
+        "location": "River",
+        "shadowSize": "Smallest",
+        "value": 0,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 4, 5, 6, 7, 8,9, 10 , 11 ],
+        "image": "images/fish/Guppy_HHD_Icon.png"
+    },
+    {
+        "name": "Nibble Fish",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 1500,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 5, 6, 7, 8, 9 ],
+        "image": "images/fish/Nibble_Fish_HHD_Icon.png"
+    },
+    {
+        "name": "Angelfish",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 3000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 5, 6, 7, 8, 9, 10 ],
+        "image": "images/fish/Angelfish_HHD_Icon.png"
+    },
+    {
+        "name": "Betta",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 2500,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 5, 6, 7, 8, 9, 10 ],
+        "image": "images/fish/Betta_NH_Icon.png"
+    },
+    {
+        "name": "Neon Tetra",
+        "location": "River",
+        "shadowSize": "Smallest",
+        "value": 500,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 4, 5, 6, 7, 8, 9, 10, 11],
+        "image": "images/fish/Neon_Tetra_HHD_Icon.png"
+    },
+    {
+        "name": "Rainbowfish",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 800,
+        "times": [ "9 AM - 4 PM" ],
+        "months": [ 5, 6, 7, 8, 9, 10],
+        "image": "images/fish/Rainbowfish_NH_Icon.png"
+    },
+    {
+        "name": "Piranha",
+        "location": "River",
+        "shadowSize": "Small",
+        "value": 2500,
+        "times": [ "9 AM - 4 PM", "9 PM - 4 AM" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Piranha_HHD_Icon.png"
+    },
+    {
+        "name": "Arowana",
+        "location": "River",
+        "shadowSize": "Large",
+        "value": 10000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Arowana_HHD_Icon.png"
+    },
+    {
+        "name": "Dorado",
+        "location": "River",
+        "shadowSize": "X Large",
+        "value": 15000,
+        "times": [ "4 AM - 9 PM" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Dorado_HHD_Icon.png"
+    },
+    {
+        "name": "Gar",
+        "location": "Pond",
+        "shadowSize": "Largest",
+        "value": 6000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 7, 8, 9, 10 ],
+        "image": "images/fish/Gar_HHD_Icon.png"
+    },
+    {
+        "name": "Arapaima",
+        "location": "River",
+        "shadowSize": "Unknown",
+        "value": 10000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Arapaima_HHD_Icon.png"
+    },
+    {
+        "name": "Saddled Bichir",
+        "location": "River",
+        "shadowSize": "Large",
+        "value": 4000,
+        "times": [ "9 PM - 4 AM" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Saddled_Bichir_HHD_Icon.png"
+    },
+    {
+        "name": "Sturgeon",
+        "location": "River (mouth)",
+        "shadowSize": "Largest",
+        "value": 10000,
+        "times": [ "All day" ],
+        "months": [ 9, 10 ,11, 12, 1, 2, 3 ],
+        "image": "images/fish/Sturgeon_HHD_Icon.png"
+    },
+    {
+        "name": "Sea Butterfly",
+        "location": "Sea",
+        "shadowSize": "Smallest",
+        "value": 1000,
+        "times": [ "All day" ],
+        "months": [ 12, 1, 2, 3 ],
+        "image": "images/fish/Sea_Butterfly_HHD_Icon.png"
+    },
+    {
+        "name": "Sea Horse",
+        "location": "Sea",
+        "shadowSize": "Smallest",
+        "value": 1100,
+        "times": [ "All day" ],
+        "months": [ 4, 5, 6, 7, 8, 9, 10, 11 ],
+        "image": "images/fish/Seahorse_HHD_Icon.png"
+    },
+    {
+        "name": "Clown Fish",
+        "location": "Sea",
+        "shadowSize": "Smallest",
+        "value": 650,
+        "times": [ "All day" ],
+        "months": [ 4, 5, 6, 7, 8, 9 ],
+        "image": "images/fish/Clownfish_HHD_Icon.png"
+    },
+    {
+        "name": "Surgeonfish",
+        "location": "Sea",
+        "shadowSize": "Small",
+        "value": 1000,
+        "times": [ "All day" ],
+        "months": [ 4, 5, 6, 7, 8, 9 ],
+        "image": "images/fish/Surgeonfish_HHD_Icon.png"
+    },
+    {
+        "name": "Butterfly Fish",
+        "location": "Sea",
+        "shadowSize": "Small",
+        "value": 1000,
+        "times": [ "All day" ],
+        "months": [ 4, 5, 6, 7, 8, 9 ],
+        "image": "images/fish/Butterfly_Fish_HHD_Icon.png"
+    },
+    {
+        "name": "Napoleonfish",
+        "location": "Sea",
+        "shadowSize": "Largest",
+        "value": 10000,
+        "times": [ "4 AM - 9 PM" ],
+        "months": [ 7, 8 ],
+        "image": "images/fish/Napoleonfish_HHD_Icon.png"
+    },
+    {
+        "name": "Zebra Turkeyfish",
+        "location": "Sea",
+        "shadowSize": "Medium",
+        "value": 500,
+        "times": [ "All day" ],
+        "months": [ 4, 5, 6, 7, 8, 9, 10, 11 ],
+        "image": "images/fish/Zebra_Turkeyfish_HHD_Icon.png"
+    },
+    {
+        "name": "Blowfish",
+        "location": "Sea",
+        "shadowSize": "Medium",
+        "value": 0,
+        "times": [ "6 PM - 4 AM" ],
+        "months": [ 11, 12, 1, 2 ],
+        "image": "images/fish/Blowfish_HHD_Icon.png"
+    },
+    {
+        "name": "Puffer Fish",
+        "location": "Sea",
+        "shadowSize": "Medium",
+        "value": 250,
+        "times": [ "All day" ],
+        "months": [ 7, 8, 9 ],
+        "image": "images/fish/Puffer_Fish_HHD_Icon.png"
+    },
+    {
+        "name": "Anchovy",
+        "location": "Sea",
+        "shadowSize": "Small",
+        "value": 200,
+        "times": [ "4 AM - 9 PM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Anchovy_NH_Icon.png"
+    },
+    {
+        "name": "Horse Mackerel",
+        "location": "Sea",
+        "shadowSize": "Small",
+        "value": 150,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Horse_Mackerel_HHD_Icon.png"
+    },
+    {
+        "name": "Barred Knifejaw",
+        "location": "Sea",
+        "shadowSize": "Medium",
+        "value": 5000,
+        "times": [ "All day" ],
+        "months": [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
+        "image": "images/fish/Barred_Knifejaw_HHD_Icon.png"
+    },
+    {
+        "name": "Sea Bass",
+        "location": "Sea",
+        "shadowSize": "X Large",
+        "value": 400,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Sea_Bass_HHD_Icon.png"
+    },
+    {
+        "name": "Red Snapper",
+        "location": "Sea",
+        "shadowSize": "Medium",
+        "value": 3000,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Red_Snapper_HHD_Icon.png"
+    },
+    {
+        "name": "Dab",
+        "location": "Sea",
+        "shadowSize": "Medium",
+        "value": 300,
+        "times": [ "All day" ],
+        "months": [ 10, 11, 12, 1, 2, 3, 4 ],
+        "image": "images/fish/Dab_HHD_Icon.png"
+    },
+    {
+        "name": "Olive Flounder",
+        "location": "Sea",
+        "shadowSize": "Large",
+        "value": 800,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Olive_Flounder_HHD_Icon.png"
+    },
+    {
+        "name": "Squid",
+        "location": "Sea",
+        "shadowSize": "Medium",
+        "value": 500,
+        "times": [ "All day" ],
+        "months": [12, 1, 2, 3, 4, 5, 6, 7, 8 ],
+        "image": "images/fish/Squid_HHD_Icon.png"
+    },
+    {
+        "name": "Moray Eel",
+        "location": "Sea",
+        "shadowSize": "X Large",
+        "value": 2000,
+        "times": [ "All day" ],
+        "months": [ 8, 9, 10 ],
+        "image": "images/fish/Moray_Eel_HHD_Icon.png"
+    },
+    {
+        "name": "Ribbon Eel",
+        "location": "Sea",
+        "shadowSize": "Narrow",
+        "value": 600,
+        "times": [ "All day" ],
+        "months": [ 6, 7, 8, 9, 10 ],
+        "image": "images/fish/Ribbon_Eel_HHD_Icon.png"
+    },
+    {
+        "name": "Tuna",
+        "location": "Pier",
+        "shadowSize": "X Large",
+        "value": 7000,
+        "times": [ "All day" ],
+        "months": [ 11, 12, 1, 2, 3, 4],
+        "image": "images/fish/Tuna_HHD_Icon.png"
+    },
+    {
+        "name": "Blue Marlin",
+        "location": "Pier",
+        "shadowSize": "X Large",
+        "value": 10000,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 7, 8, 9, 11, 12 ],
+        "image": "images/fish/Blue_Marlin_HHD_Icon.png"
+    },
+    {
+        "name": "Giant Trevally",
+        "location": "Pier",
+        "shadowSize": "Large",
+        "value": 0,
+        "times": [ "All day" ],
+        "months": [ 5, 6, 7, 8, 9, 10 ],
+        "image": "images/fish/Giant_Trevally_HHD_Icon.png"
+    },
+    {
+        "name": "Mahi-mahi",
+        "location": "Sea",
+        "shadowSize": "Large",
+        "value": 6000,
+        "times": [ "All day" ],
+        "months": [ 5, 6, 7, 8, 9, 10 ],
+        "image": "images/fish/Mahi-Mahi_NH_Icon.png"
+    },
+    {
+        "name": "Ocean Sunfish",
+        "location": "Sea",
+        "shadowSize": "(Fin)",
+        "value": 4000,
+        "times": [ "4 AM - 9 PM" ],
+        "months": [ 7, 8, 9 ],
+        "image": "images/fish/Ocean_Sunfish_HHD_Icon.png"
+    },
+    {
+        "name": "Ray",
+        "location": "Sea",
+        "shadowSize": "X Large",
+        "value": 3000,
+        "times": [ "4 AM - 9 PM" ],
+        "months": [ 8, 9, 10, 11 ],
+        "image": "images/fish/Ray_HHD_Icon.png"
+    },
+    {
+        "name": "Saw Shark",
+        "location": "Sea",
+        "shadowSize": "Largest (fin)",
+        "value": 12000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Saw_Shark_HHD_Icon.png"
+    },
+    {
+        "name": "Hammerhead Shark",
+        "location": "Sea",
+        "shadowSize": "Largest (fin)",
+        "value": 8000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Hammerhead_Shark_HHD_Icon.png"
+    },
+    {
+        "name": "Great White Shark",
+        "location": "Sea",
+        "shadowSize": "Largest (fin)",
+        "value": 15000,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Shark_HHD_Icon.png"
+    },
+    {
+        "name": "Whale Shark",
+        "location": "Sea",
+        "shadowSize": "Largest (fin)",
+        "value": 13000,
+        "times": [ "All day" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Whale_Shark_HHD_Icon.png"
+    },
+    {
+        "name": "Suckerfish",
+        "location": "Sea",
+        "shadowSize": "(Fin)",
+        "value": 1500,
+        "times": [ "All day" ],
+        "months": [ 6, 7, 8, 9 ],
+        "image": "images/fish/Suckerfish_NH_Icon.png"
+    },
+    {
+        "name": "Football Fish",
+        "location": "Sea",
+        "shadowSize": "Large",
+        "value": 2500,
+        "times": [ "4 PM - 9 AM" ],
+        "months": [ 11, 12, 1, 2, 3 ],
+        "image": "images/fish/Football_Fish_HHD_Icon.png"
+    },
+    {
+        "name": "Oarfish",
+        "location": "Sea",
+        "shadowSize": "Largest",
+        "value": 9000,
+        "times": [ "All day" ],
+        "months": [ 12, 1, 2, 3, 4, 5 ],
+        "image": "images/fish/Oarfish_HHD_Icon.png"
+    },
+    {
+        "name": "Barreleye",
+        "location": "Sea",
+        "shadowSize": "Small",
+        "value": 15000,
+        "times": [ "9 PM - 4 AM" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Barreleye_NH_Icon.png"
+    },
+    {
+        "name": "Coelacanth",
+        "location": "Sea (rainy days)",
+        "shadowSize": "Largest",
+        "value": 15000,
+        "times": [ "All day" ],
+        "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+        "image": "images/fish/Coelacanth_HHD_Icon.png"
+    }
+]

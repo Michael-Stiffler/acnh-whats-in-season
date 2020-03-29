@@ -1,0 +1,20 @@
+{
+  "name": "animal-x-season",
+  "version": "1.0.0",
+  "description": "Animal Crossing Whats in season",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animal",
+    "crossing",
+    "new",
+    "horizon",
+    "bugs",
+    "fish"
+  ],
+  "author": "ntrue",
+  "license": "ISC",
+  "dependencies": {}
+}

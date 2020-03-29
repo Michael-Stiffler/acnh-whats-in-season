@@ -1,0 +1,642 @@
+[
+	{
+		"name": "Agrias Butterfly",
+		"location": "Flying",
+		"value": 3000,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 1, 2, 3, 10, 11, 12 ],
+		"image": "images/bugs/Agrias_Butterfly_HHD.png"
+	},
+	{
+		"name": "Atlas Moth",
+		"location": "Tree",
+		"value": 3000,
+		"times": [ "7 PM - 4 AM" ],
+		"months": [ 1, 2, 3, 10, 11, 12 ],
+		"image": "images/bugs/Atlasmoththumb.png"
+	},
+	{
+		"name": "Ant",
+		"location": "Rotten food",
+		"value": 80,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Ant_HHD_Icon.png"
+	},
+	{
+		"name": "Bagworm",
+		"location": "Shaking trees",
+		"value": 600,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Bagworm_HHD_Icon.png"
+	},
+	{
+		"name": "Centipede",
+		"location": "Hitting rocks",
+		"value": 430,
+		"times": [ "4 PM - 11 PM" ],
+		"months": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/NH-Centipede.png"
+	},
+	{
+		"name": "Citrus Long-Horned Beetle",
+		"location": "On stump",
+		"value": 350,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Citrus_Long-horned_Beetle_NH_icon.png"
+	},
+	{
+		"name": "Jewel Beetle",
+		"location": "On stump",
+		"value": 2400,
+		"times": [ "All day" ],
+		"months": [ 4, 5, 6, 7, 8 ],
+		"image": ""
+	},
+	{
+		"name": "Common Butterfly",
+		"location": "Flying",
+		"value": 160,
+		"times": [ "4 AM - 7 PM" ],
+		"months": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Common_Butterfly_HHD_Icon.png"
+	},
+	{
+		"name": "Common Bluebottle",
+		"location": "Flying",
+		"value": 300,
+		"times": [ "4 AM - 7 PM" ],
+		"months": [ 4, 5, 6, 7, 8 ],
+		"image": "images/bugs/Common_Bluebottle_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Great Purple Emperor",
+		"location": "Flying",
+		"value": 3000,
+		"times": [ "4 AM - 7 PM" ],
+		"months": [ 5, 6, 7, 8 ],
+		"image": "images/bugs/Great_Purple_Emperor_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Cricket",
+		"location": "On ground",
+		"value": 160,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 3, 4, 5 ],
+		"image": "images/bugs/Cricket_HHD_Icon.png"
+	},
+	{
+		"name": "Damselfly",
+		"location": "Flying",
+		"value": 500,
+		"times": [ "All day" ],
+		"months": [ 11, 12, 1, 2 ],
+		"image": "images/bugs/Damselfly_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Firefly",
+		"location": "Flying",
+		"value": 0,
+		"times": [ "7 PM - 4 AM" ],
+		"months": [ 6 ],
+		"image": ""
+	},
+	{
+		"name": "Darner Dragonfly",
+		"location": "Flying",
+		"value": 230,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 1, 2, 3, 4, 10, 11, 12 ],
+		"image": "images/bugs/Darner_Dragonfly_HHD_Icon.png"
+	},
+	{
+		"name": "Banded Dragonfly",
+		"location": "Flying",
+		"value": 4500,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 1, 2, 3, 4, 11, 12 ],
+		"image": "images/bugs/Banded_Dragonfly_HHD_Icon.png"
+	},
+	{
+		"name": "Diving Beetle",
+		"location": "River",
+		"value": 800,
+		"times": [ "8 AM - 7 PM" ],
+		"months": [ 1, 2, 3, 11, 12 ],
+		"image": "images/bugs/Diving_Beetle_HHD_Icon.png"
+	},
+	{
+		"name": "Dung Beetle",
+		"location": "Snowballs",
+		"value": 2500,
+		"times": [ "All day" ],
+		"months": [ 6, 7, 8 ],
+		"image": ""
+	},
+	{
+		"name": "Goliath Beetle",
+		"location": "On tree (Palm)",
+		"value": 8000,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 1, 2, 3, 12 ],
+		"image": ""
+	},
+	{
+		"name": "Earth-Boring Dung Beetle",
+		"location": "Ground",
+		"value": 300,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3],
+		"image": "images/bugs/Earth-Boring_Dung_Beetle_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Emperor Butterfly",
+		"location": "Flying",
+		"value": 4000,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 12, 1, 2, 3, 6, 7, 8, 9 ],
+		"image": "images/bugs/Emperor_Butterfly_HHD_Icon.png"
+	},
+	{
+		"name": "Flea",
+		"location": "Flea-infested villager",
+		"value": 70,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 5, 10, 11, 12 ],
+		"image": "images/bugs/NH-Flea.png"
+	},
+	{
+		"name": "Fly",
+		"location": "Rotten food",
+		"value": 60,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/NH-Fly.png"
+	},
+	{
+		"name": "Grasshopper",
+		"location": "Ground",
+		"value": 160,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 1, 2, 3 ],
+		"image": "images/bugs/Grasshopper_HHD_Icon.png"
+	},
+	{
+		"name": "Rice Grasshopper",
+		"location": "Ground",
+		"value": 160,
+		"times": [ "8 AM - 7 PM" ],
+		"months": [ 2, 3, 4, 5 ],
+		"image": "images/bugs/Rice_Grasshopper_HHD_Icon.png"
+	},
+	{
+		"name": "Hermit Crab",
+		"location": "Beach",
+		"value": 1000,
+		"times": [ "7 PM - 8 AM" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Hermit_Crab_HHD_Icon.png"
+	},
+	{
+		"name": "Honeybee",
+		"location": "Flying",
+		"value": 200,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 1, 9, 10, 11, 12 ],
+		"image": "images/bugs/Honeybee_HHD_Icon.png"
+	},
+	{
+		"name": "Ladybug",
+		"location": "Flowers",
+		"value": 200,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 3, 4, 5, 6, 10 ],
+		"image": "images/bugs/Ladybug_HHD_Icon.png"
+	},
+	{
+		"name": "Long Locust",
+		"location": "Ground",
+		"value": 200,
+		"times": [ "8 AM - 7 PM" ],
+		"months": [ 1, 2, 3, 4, 5, 10, 11, 12 ],
+		"image": "images/bugs/Long_Locust_HHD_Icon.png"
+	},
+	{
+		"name": "Madagascan Sunset Moth",
+		"location": "Flying",
+		"value": 2500,
+		"times": [ "8 AM - 4 PM" ],
+		"months": [ 1, 2, 3, 10, 11, 12 ],
+		"image": "images/bugs/Madagascan_Sunset_Moth_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Man-Faced Stink Bug",
+		"location": "Flowers",
+		"value": 1000,
+		"times": [ "7 PM - 8 AM" ],
+		"months": [ 1, 2, 3, 4, 9, 10, 11, 12 ],
+		"image": "images/bugs/Man-faced_Stink_Bug_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Mantis",
+		"location": "Flowers",
+		"value": 430,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 1, 2, 3, 4, 5, 9, 10, 11, 12 ],
+		"image": "images/bugs/Mantis_HHD_Icon.png"
+	},
+	{
+		"name": "Migratory Locust",
+		"location": "Ground",
+		"value": 200,
+		"times": [ "8 AM - 7 PM" ],
+		"months": [ 2, 3, 4, 5 ],
+		"image": "images/bugs/Migratory_Locust_HHD_Icon.png"
+	},
+	{
+		"name": "Mole Cricket",
+		"location": "Underground",
+		"value": 500,
+		"times": [ "All day" ],
+		"months": [ 5, 6, 7, 8, 9, 10, 11 ],
+		"image": "images/bugs/Mole_Cricket_HHD_Icon.png"
+	},
+	{
+		"name": "Bell Cricket",
+		"location": "Ground",
+		"value": 430,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 3, 4 ],
+		"image": "images/bugs/Bell_Cricket_HHD_Icon.png"
+	},
+	{
+		"name": "Monarch Butterfly",
+		"location": "Flying",
+		"value": 140,
+		"times": [ "4 AM - 5 PM" ],
+		"months": [ 3, 4, 5 ],
+		"image": "images/bugs/Monarch_Butterfly_HHD_Icon.png"
+	},
+	{
+		"name": "Mosquito",
+		"location": "Flying",
+		"value": 130,
+		"times": [ "5 PM - 4 AM" ],
+		"months": [ 12, 1, 2, 3 ],
+		"image": "images/bugs/NH-Mosquito.png"
+	},
+	{
+		"name": "Moth",
+		"location": "Flying near light",
+		"value": 130,
+		"times": [ "7 PM - 4 AM" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Moth_HHD_Icon.png"
+	},
+	{
+		"name": "Orchid Mantis",
+		"location": "Flowers",
+		"value": 2400,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 1, 2, 3, 4, 5, 9, 10, 11, 12 ],
+		"image": "images/bugs/Orchid_Mantis_HHD_Icon.png"
+	},
+	{
+		"name": "Paper Kite Butterfly",
+		"location": "Flying",
+		"value": 1000,
+		"times": [ "8 AM - 7 PM" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Paper_Kite_Butterfly_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Peacock Butterfly",
+		"location": "Near black, blue, and purple flowers",
+		"value": 2500,
+		"times": [ "4 AM - 7 PM" ],
+		"months": [ 9, 10, 11, 12 ],
+		"image": "images/bugs/Peacock_Butterfly_HHD_Icon.png"
+	},
+	{
+		"name": "Blue Weevil Beetle",
+		"location": "?",
+		"value": "?",
+		"times": [ "All day" ],
+		"months": [ 7,8 ],
+		"image": "images/bugs/Blue_Weevil_Beetle_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Pill Bug",
+		"location": "Hit rocks",
+		"value": 250,
+		"times": [ "11 PM - 4 PM" ],
+		"months": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/NH-Pill-Bug.png"
+	},
+	{
+		"name": "Pondskater",
+		"location": "River",
+		"value": 130,
+		"times": [ "8 AM - 7 PM" ],
+		"months": [ 1, 2, 3, 11, 12 ],
+		"image": "images/bugs/Pondskater_HHD_Icon.png"
+	},
+	{
+		"name": "Queen Alexandra’s Birdwing",
+		"location": "Flying",
+		"value": 4000,
+		"times": [ "8 AM - 4 PM" ],
+		"months": [ 1, 2, 3, 11, 12 ],
+		"image": "images/bugs/Queenalex.png"
+	},
+	{
+		"name": "Rajah Brooke’s Birdwing",
+		"location": "Near black, blue, and purple flowers",
+		"value": 2500,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 1, 2, 3, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Rajahbrookes.png"
+	},
+	{
+		"name": "Red Dragonfly",
+		"location": "Flying",
+		"value": 180,
+		"times": [ "8 AM - 7 PM" ],
+		"months": [ 3, 4 ],
+		"image": "images/bugs/Red_Dragonfly_HHD_Icon.png"
+	},
+	{
+		"name": "Rosalia Batsei Beetle",
+		"location": "Tree stump",
+		"value": 3000,
+		"times": [ "7 PM - 8 AM" ],
+		"months": [ 1, 2, 3, 11, 12],
+		"image": "images/bugs/Rosalia_Batesi_Beetle_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Giant Water Bug",
+		"location": "Water",
+		"value": 2000,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 10, 11, 12 ],
+		"image": "images/bugs/Giant_Water_Bug_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Saw Stag",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "All day" ],
+		"months": [ 7, 8 ],
+		"image": ""
+	},
+	{
+		"name": "Miyama Stag",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "All day" ],
+		"months": [ 7, 8 ],
+		"image": ""
+	},
+	{
+		"name": "Giant Stag",
+		"location": "Trees",
+		"value": 10000,
+		"times": [ "11 PM - 8 AM" ],
+		"months": [ 7, 8 ],
+		"image": ""
+	},
+	{
+		"name": "Rainbow Stag",
+		"location": "Trees",
+		"value": 6000,
+		"times": [ "7 PM - 8 AM" ],
+		"months": [ 1, 2, 3, 12 ],
+		"image": ""
+	},
+	{
+		"name": "Cyclommatus Stag",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 7, 8],
+		"image": ""
+	},
+	{
+		"name": "Golden Stag",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 7, 8],
+		"image": ""
+	},
+	{
+		"name": "Giraffe Stag",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 7, 8],
+		"image": "images/bugs/Giraffe_Stag_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Horned Dynastid",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 7, 8],
+		"image": ""
+	},
+	{
+		"name": "Horned Atlas",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 7, 8],
+		"image": ""
+	},
+	{
+		"name": "Horned Elephant",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 7, 8],
+		"image": ""
+	},
+	{
+		"name": "Horned Hercules",
+		"location": "Trees",
+		"value": 0,
+		"times": [ "5 PM - 8 AM" ],
+		"months": [ 7, 8],
+		"image": ""
+	},
+	{
+		"name": "Scorpion",
+		"location": "Ground",
+		"value": 8000,
+		"times": [ "7 PM - 4 AM" ],
+		"months": [ 1, 2, 3, 4, 11, 12 ],
+		"image": "images/bugs/NH-Scorpion.png"
+	},
+	{
+		"name": "Snail",
+		"location": "Rock (Raining)",
+		"value": 250,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/NH-Snail.png"
+	},
+	{
+		"name": "Spider",
+		"location": "Shaking trees",
+		"value": 600,
+		"times": [ "7 PM - 8 AM" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/NH-Spider.png"
+	},
+	{
+		"name": "Stinkbug",
+		"location": "Flowers",
+		"value": 120,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 9, 10, 11, 12 ],
+		"image": "images/bugs/Stinkbug_(New_Leaf_icon).PNG.png"
+	},
+	{
+		"name": "Tarantula",
+		"location": "Ground",
+		"value": 8000,
+		"times": [ "7 PM - 4 AM" ],
+		"months": [ 5, 6, 7, 8, 9, 10 ],
+		"image": "images/bugs/NH-Tarantula.png"
+	},
+	{
+		"name": "Tiger Beetle",
+		"location": "Ground",
+		"value": 1500,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Tiger_Beetle_HHD_Icon.png"
+	},
+	{
+		"name": "Scarab Beetle",
+		"location": "Tree",
+		"value": 0,
+		"times": [ "11 PM - 8 AM" ],
+		"months": [ 7, 8 ],
+		"image": ""
+	},
+	{
+		"name": "Drone Beetle",
+		"location": "Tree",
+		"value": 0,
+		"times": [ "All day" ],
+		"months": [ 6, 7, 8 ],
+		"image": "images/bugs/Drone_Beetle_NH_Icon.PNG.png"
+	},
+	{
+		"name": "Tiger Butterfly",
+		"location": "Flying",
+		"value": 240,
+		"times": [ "4 AM - 7 PM" ],
+		"months": [ 1, 2, 3, 9, 10, 11, 12 ],
+		"image": "images/bugs/Tiger_Butterfly_HHD_Icon.png"
+	},
+	{
+		"name": "Violin Beetle",
+		"location": "Tree Stump",
+		"value": 450,
+		"times": [ "All day" ],
+		"months": [ 3, 4, 5, 11, 12 ],
+		"image": "images/bugs/Violinbeetle.png"
+	},
+	{
+		"name": "Brown Cicada",
+		"location": "Tree",
+		"value": 0,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 7, 8 ],
+		"image": "images/bugs/Brown_Cicada_HHD.png"
+	},
+	{
+		"name": "Robust Cicada",
+		"location": "Tree",
+		"value": 0,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 7, 8 ],
+		"image": "images/bugs/Robust_Cicada_HHD.png"
+	},
+	{
+		"name": "Giant Cicada",
+		"location": "Tree",
+		"value": 0,
+		"times": [ "8 AM - 5 PM" ],
+		"months": [ 7, 8 ],
+		"image": "images/bugs/Giant_Cicada_HHD.png"
+	},
+	{
+		"name": "Evening Cicada",
+		"location": "Tree",
+		"value": 0,
+		"times": [ "4 AM - 8 AM", "4 PM - 7 PM" ],
+		"months": [ 7, 8 ],
+		"image": "images/bugs/Evening_Cicada_HHD.png"
+	},
+	{
+		"name": "Cicada Shell",
+		"location": "Tree",
+		"value": 0,
+		"times": [ "All day" ],
+		"months": [ 7, 8 ],
+		"image": "images/bugs/Cicada_Shell_HHD_Icon.png"
+	},
+	{
+		"name": "Walker Cicada",
+		"location": "Tree",
+		"value": 400,
+		"times": [ "8 AM - 4 PM" ],
+		"months": [ 2, 3 ],
+		"image": "images/bugs/Walker_Cicada_HHD_Icon.png"
+	},
+	{
+		"name": "Walking Leaf",
+		"location": "Ground",
+		"value": 600,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3 ],
+		"image": "images/bugs/Walking_Leaf_HHD_Icon.png"
+	},
+	{
+		"name": "Walking Stick",
+		"location": "Tree",
+		"value": 600,
+		"times": [ "4 AM - 8 AM", "4 PM - 8 PM" ],
+		"months": [ 1, 2, 3, 4, 5 ],
+		"image": ""
+	},
+	{
+		"name": "Wasp",
+		"location": "Shaking tree",
+		"value": 2500,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Bee_HHD_Icon.png"
+	},
+	{
+		"name": "Wharf Roach",
+		"location": "Beach (rocks)",
+		"value": 200,
+		"times": [ "All day" ],
+		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+		"image": "images/bugs/Wharf_Roach_HHD_Icon.png"
+	},
+	{
+		"name": "Yellow Butterfly",
+		"location": "Flying",
+		"value": 160,
+		"times": [ "4 AM - 7 PM" ],
+		"months": [ 3, 4, 9, 10, 11, 12 ],
+		"image": "images/bugs/Yellow_Butterfly_HHD_Icon.png"
+	}
+]
