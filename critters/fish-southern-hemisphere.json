@@ -237,7 +237,7 @@
     },
     {
         "name": "Cherry Salmon",
-        "location": "River",
+        "location": "River (Clifftop), Pond",
         "shadowSize": "Medium",
         "value": 1000,
         "times": [ "All day" ],
@@ -246,7 +246,7 @@
     },
     {
         "name": "Char",
-        "location": "River/Pond",
+        "location": "River (Clifftop), Pond",
         "shadowSize": "Medium",
         "value": 3800,
         "times": [ "4 PM - 9 AM" ],
