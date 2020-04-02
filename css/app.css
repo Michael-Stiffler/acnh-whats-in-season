@@ -1,11 +1,18 @@
 .critter-card{
     width:300px;
-    height:144px;
+    height:180px;
 }
 
 .critter-image{
     width: 64px;
-    padding-top: 25px;
+}
+
+.icon-secondary {
+    fill: orange;
+}
+
+.card-title{
+    padding-top: 0;
 }
 
 .critter-button{
@@ -40,10 +47,14 @@
 .hemisphere{
     margin: auto;
 }
-
+.hemisphere-button{
+    min-width: 0;
+}
 .clickCard .md-button {
     padding: 0 !important;
 }
 .clickCard md-card {
     margin: 1px;
 }
+
+span:after{content:" "}

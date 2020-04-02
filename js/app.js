@@ -37,6 +37,11 @@ myApp.controller('acnh-seasons', function($scope, $timeout, $http, $mdMedia, $q)
      */
     $scope.critterList = [];
     /**
+     * List of checked critters
+     * @type {Array}
+     */
+    var checkedCritters = {};
+    /**
      * Set default dark mode
      * @type {string}
      */
@@ -52,10 +57,25 @@ myApp.controller('acnh-seasons', function($scope, $timeout, $http, $mdMedia, $q)
      */
     $scope.showBugs = true;
     /**
+     * Initalize show all critters as false
+     * @type {boolean}
+     */
+    $scope.showAllCritters = false;
+    /**
+     * Initialize if checked checkboxes should be shown
+     * @type {boolean}
+     */
+    $scope.showChecks = false;
+    /**
+     * Initialize if indeterminate checkboxes should be shown
+     * @type {boolean}
+     */
+    $scope.showCheckIndeterminate = true;
+    /**
      * Set default hemisphere to northern
      * @type {string}
      */
-    $scope.hemisphere = 'Northern';
+    $scope.hemisphere = 'North';
     /**
      * Initialize hemi as not disabled
      * @type {boolean}
@@ -67,6 +87,7 @@ myApp.controller('acnh-seasons', function($scope, $timeout, $http, $mdMedia, $q)
     (function loadLocalStorage() {
         $scope.theme = localStorage.getItem('theme') || 'default';
         $scope.themeSwitch = $scope.theme !== 'default';
+        checkedCritters = JSON.parse(localStorage.getItem('checkedCritters')) || {};
     })();
     /**
      * Toggles the show fish boolean
@@ -81,6 +102,12 @@ myApp.controller('acnh-seasons', function($scope, $timeout, $http, $mdMedia, $q)
         $scope.showBugs = $scope.showBugs ? false : true;
     };
     /**
+     * toggles the show all boolean
+     */
+    $scope.changeShowCritters = function () {
+        $scope.showAllCritters = $scope.showAllCritters ? false : true;
+    };
+    /**
      * Change the theme between default and dark modes
      */
     $scope.changeTheme = function() {
@@ -92,7 +119,7 @@ myApp.controller('acnh-seasons', function($scope, $timeout, $http, $mdMedia, $q)
      */
     $scope.changeHemisphere = function () {
         $scope.disableHemiButton = true;
-        $scope.hemisphere = $scope.hemisphere === 'Northern' ? 'Southern' : 'Northern';
+        $scope.hemisphere = $scope.hemisphere === 'North' ? 'South' : 'North';
         $scope.critterList = [];
         var promiseArray = [];
         promiseArray.push(loadFish());
@@ -106,14 +133,23 @@ myApp.controller('acnh-seasons', function($scope, $timeout, $http, $mdMedia, $q)
      * @param {Array} months - Array of included months
      * @returns {boolean}
      */
-    $scope.isMonthInSeason = function (months) {
+    var isMonthInSeason = function (critter) {
+        var months = critter.months;
         var thisMonth = parseInt($scope.currentDateTime.getMonth()) + 1;
+        var nextMonth = (parseInt(thisMonth) + 1) > 12 ? 1 : (parseInt(thisMonth) + 1);
+        if(months.indexOf(thisMonth) >= 0 && months.indexOf(nextMonth) < 0) {
+            critter.opacity = .6
+        } else {
+            critter.opacity = 1;
+        }
+
+        if($scope.showAllCritters) return true;
         return months.indexOf(thisMonth) >= 0;
     };
     /**
-     *
+     * Hide passed critter based on show buttons
      */
-    $scope.hideCritter = function (critter) {
+    var hideCritter = function (critter) {
         if(!$scope.showFish && critter.shadowSize) {
             return false;
         } else if(!$scope.showBugs && !critter.shadowSize) {
@@ -122,11 +158,61 @@ myApp.controller('acnh-seasons', function($scope, $timeout, $http, $mdMedia, $q)
         return true;
     };
     /**
+     * Returns if the card should be shown
+     * @param critter
+     * @returns {boolean}
+     */
+    $scope.showCard = function (critter) {
+        return isMonthInSeason(critter) && isTimeInSeason(critter.times) &&
+            hideCritter(critter) && showByChecks(critter.checked)
+    };
+    /**
+     * Toggles if checked, unchecked or both critters should show
+     */
+    $scope.toggleShowChecks = function () {
+        if(!$scope.showChecks && $scope.showCheckIndeterminate) {
+            $scope.showChecks = true;
+            $scope.showCheckIndeterminate = false;
+        } else if ($scope.showChecks && !$scope.showCheckIndeterminate) {
+            $scope.showChecks = false;
+            $scope.showCheckIndeterminate = false;
+        } else {
+            $scope.showChecks = false;
+            $scope.showCheckIndeterminate = true;
+        }
+    };
+    /**
+     * Return which whether check, unchecked, or either should be shown
+     * @param {boolean} check - Checkbox value
+     * @returns {boolean}
+     */
+    var showByChecks = function (check) {
+        if(check && $scope.showChecks && !$scope.showCheckIndeterminate) {
+            return true;
+        } else if(!check && !$scope.showChecks && $scope.showCheckIndeterminate) {
+            return true;
+        } else if(check && !$scope.showChecks && $scope.showCheckIndeterminate) {
+            return true;
+        } else if(!check && !$scope.showChecks && !$scope.showCheckIndeterminate) {
+            return true;
+        } else {
+            return false;
+        }
+    };
+    /**
+     * Update check in object
+     */
+    $scope.checkChange = function (critter) {
+        checkedCritters[critter.name] = critter.checked;
+        localStorage.setItem('checkedCritters', JSON.stringify(checkedCritters));
+    };
+    /**
      * Returns if the current time is in the passed times array
      * @param {Array} times - Array of included times
      * @returns {boolean}
      */
-    $scope.isTimeInSeason = function (times) {
+    var isTimeInSeason = function (times) {
+        if($scope.showAllCritters) return true;
         var timeCheck = [];
         function checkTime(time) {
             var hour = $scope.currentDateTime.getHours();
@@ -217,22 +303,33 @@ myApp.controller('acnh-seasons', function($scope, $timeout, $http, $mdMedia, $q)
      * Loads the list of fish from json file
      */
     var loadFish = function () {
-        var path = $scope.hemisphere === 'Northern' ?
+        var path = $scope.hemisphere === 'North' ?
             'critters/fish-northern-hemisphere.json' : 'critters/fish-southern-hemisphere.json';
         return $http.get(path).then(function(response) {
             $scope.critterList = $scope.critterList.concat(response.data);
-        })
+        });
     };
-    loadFish();
     /**
      * Loads the list of bugs from json file
      */
     var loadBugs = function () {
-        var path = $scope.hemisphere === 'Northern' ?
+        var path = $scope.hemisphere === 'North' ?
             'critters/bugs-northern-hemisphere.json' : 'critters/bugs-southern-hemisphere.json';
         return $http.get(path).then(function(response) {
             $scope.critterList = $scope.critterList.concat(response.data);
-        })
+        });
     };
-    loadBugs();
+
+    var loadCritters = function () {
+        var loadCritterPromiseArray = [];
+        loadCritterPromiseArray.push(loadFish());
+        loadCritterPromiseArray.push(loadBugs());
+        $q.all(loadCritterPromiseArray).then(function () {
+            for(var i = 0, c = $scope.critterList.length; i < c; ++i) {
+                if(!checkedCritters[$scope.critterList[i].name]) continue;
+                $scope.critterList[i].checked = checkedCritters[$scope.critterList[i].name];
+            }
+        });
+    };
+    loadCritters();
 });

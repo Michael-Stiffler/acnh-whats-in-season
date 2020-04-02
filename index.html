@@ -9,7 +9,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.21/angular-material.min.css"/>
     <link rel="stylesheet" href="css\app.css"/>
 </head>
-<body ng-app="myApp" style="">
+<body ng-app="myApp">
 <div class="full-height" ng-controller="acnh-seasons">
     <md-content class="full-height" md-theme="{{theme}}" md-theme-watch="true">
         <div layout="row">
@@ -23,14 +23,29 @@
                 </md-button>
                 <md-button class="md-icon-button critter-button"
                            aria-label="Bugs"
-
                            ng-click="changeShowBugs()">
                     <md-icon ng-if="showBugs" md-svg-icon="images/misc/bug.svg"></md-icon>
                     <md-icon ng-if="!showBugs" md-svg-icon="images/misc/bug-outline.svg"></md-icon>
                 </md-button>
+                <md-button class="md-icon-button critter-button"
+                           aria-label="Toggle Checks"
+                           ng-click="toggleShowChecks()">
+                    <md-icon ng-if="!showChecks && showCheckIndeterminate"
+                             md-svg-icon="images/misc/minus-box-outline.svg"></md-icon>
+                    <md-icon ng-if="!showChecks && !showCheckIndeterminate"
+                             md-svg-icon="images/misc/checkbox-blank-outline.svg"></md-icon>
+                    <md-icon ng-if="showChecks && !showCheckIndeterminate"
+                             md-svg-icon="images/misc/check-box-outline.svg"></md-icon>
+                </md-button>
+                <md-button class="md-icon-button critter-button"
+                           aria-label="Show All"
+                           ng-click="changeShowCritters()">
+                    <md-icon ng-if="!showAllCritters" md-svg-icon="images/misc/eye-off.svg"></md-icon>
+                    <md-icon ng-if="showAllCritters" md-svg-icon="images/misc/eye.svg"></md-icon>
+                </md-button>
             </div>
             <div class="hemisphere">
-                <md-button ng-disabled="disableHemiButton" ng-click="changeHemisphere()">
+                <md-button class="hemisphere-button" ng-disabled="disableHemiButton" ng-click="changeHemisphere()">
                     <label>{{ hemisphere }}</label>
                 </md-button>
             </div>
@@ -56,14 +71,33 @@
         </div>
         <div layout-gt-md="row" layout-md="column" layout-align="center center" layout-wrap>
             <div ng-repeat="critter in critterList | filter:critterSearch | orderBy : 'name'"
-                 ng-if="isMonthInSeason(critter.months) && isTimeInSeason(critter.times) && hideCritter(critter)">
-                <md-card ng-class="{'critter-card' : $mdMedia('gt-md')}" ng-click="">
-                    <md-card-title>
+                 ng-if="showCard(critter)">
+                <md-card ng-class="{'critter-card' : $mdMedia('gt-md')}" ng-style="{opacity: critter.opacity}">
+                    <md-card-header style="padding-right:4px;">
+                        <md-card-header-text>
+                            <div layout="row">
+                                <div layout="column" flex>
+                                    <span class="md-title">
+                                        <md-tooltip>{{ critter.name }}</md-tooltip>
+                                        {{ critter.name }}
+                                    </span>
+                                    <div layout="row">
+                                        <span class="md-subhead" ng-repeat="time in critter.times">
+                                            {{ time }}
+                                            <span ng-if="!$last">,&nbsp;</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <md-input-container class="no-margin-top">
+                                    <md-checkbox aria-label="Checkbox" ng-model="critter.checked"
+                                                 ng-change="checkChange(critter)">
+                                    </md-checkbox>
+                                </md-input-container>
+                            </div>
+                        </md-card-header-text>
+                    </md-card-header>
+                    <md-card-title class="card-title">
                         <md-card-title-text>
-                            <span class="md-headline trim-info">
-                                <md-tooltip>{{ critter.name }}</md-tooltip>
-                                {{ critter.name }}
-                            </span>
                             <span class="md-subhead">Location: {{ critter.location }}</span>
                             <span class="md-subhead" ng-if="critter.shadowSize">
                                 Shadow Size: {{ critter.shadowSize }}
@@ -81,6 +115,13 @@
                     </md-card-title>
                 </md-card>
             </div>
+        </div>
+        <div layout="column" layout-align="center center">
+            <md-card>
+                <md-content class="md-padding">
+                    <span>Critters that will be gone after this month will now show slightly faded.</span>
+                </md-content>
+            </md-card>
         </div>
     </md-content>
 </div>
