@@ -6,7 +6,7 @@
         "value": 900,
         "times": [ "All day" ],
         "months": [ 11, 12, 1, 2, 3 ],
-        "image": "images/fish/Bitterling_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-bitterling.png"
     },
     {
         "name": "Pale Chub",
@@ -15,7 +15,7 @@
         "value": 160,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Pale_Chub_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-palechub.png"
     },
     {
         "name": "Crucian Carp",
@@ -24,7 +24,7 @@
         "value": 160,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Crucian_Carp_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-cruciancarp.png"
     },
     {
         "name": "Dace",
@@ -33,7 +33,7 @@
         "value": 240,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Dace_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-dace.png"
     },
     {
         "name": "Carp",
@@ -42,7 +42,7 @@
         "value": 300,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Carp_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-carp.png"
     },
     {
         "name": "Koi",
@@ -51,7 +51,7 @@
         "value": 4000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Koi_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-koi.png"
     },
     {
         "name": "Goldfish",
@@ -60,7 +60,7 @@
         "value": 1300,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Goldfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-goldfish.png"
     },
     {
         "name": "Pop-eyed Goldfish",
@@ -69,7 +69,7 @@
         "value": 1300,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Popeyed_Goldfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-popeyedgoldfish.png"
 
     },
     {
@@ -79,16 +79,16 @@
         "value": 4500,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Ranchu_Goldfish_NH_Icon.png"
+        "image": "images/fish/NH-Icon-ranchugoldfish.png"
     },
     {
         "name": "Killifish",
         "location": "Pond",
         "shadowSize": "Smallest",
-        "value": 0,
+        "value": 300,
         "times": [ "All day" ],
         "months": [ 4, 5, 6, 7, 8 ],
-        "image": "images/fish/Killifish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-killifish.png"
 
     },
     {
@@ -98,7 +98,7 @@
         "value": 200,
         "times": [ "All day" ],
         "months": [ 4, 5, 6, 7, 8, 9 ],
-        "image": "images/fish/Crawfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-crawfish.png"
     },
     {
         "name": "Soft-shelled Turtle",
@@ -107,7 +107,7 @@
         "value": 3750,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 8, 9 ],
-        "image": "images/fish/Soft-Shelled_Turtle_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-softshelledturtle.png"
     },
     {
         "name": "Snapping Turtle",
@@ -116,7 +116,7 @@
         "value": 5000,
         "times": [ "9 AM - 4 AM" ],
         "months": [ 4, 5, 6, 7, 8, 9, 10 ],
-        "image": "images/fish/Snapping_Turtle_NH_Icon.png"
+        "image": "images/fish/NH-Icon-snappingturtle.png"
     },
     {
         "name": "Tadpole",
@@ -125,7 +125,7 @@
         "value": 100,
         "times": [ "All day" ],
         "months": [ 3, 4, 5, 6, 7 ],
-        "image": "images/fish/Tadpole_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-tadpole.png"
     },
     {
         "name": "Frog",
@@ -134,7 +134,7 @@
         "value": "Unknown",
         "times": [ "All day" ],
         "months": [ 5, 6, 7, 8 ],
-        "image": "images/fish/Frog_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-frog.png"
     },
     {
         "name": "Freshwater Goby",
@@ -143,7 +143,7 @@
         "value": 400,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Freshwater_Goby_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-freshwatergoby.png"
     },
     {
         "name": "Loach",
@@ -152,7 +152,7 @@
         "value": 400,
         "times": [ "All day" ],
         "months": [ 3, 4, 5 ],
-        "image": "images/fish/Loach_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-loach.png"
     },
     {
         "name": "Catfish",
@@ -161,16 +161,16 @@
         "value": 800,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 5, 6, 7, 8, 9, 10 ],
-        "image": "images/fish/Catfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-catfish.png"
     },
     {
         "name": "Giant Snakehead",
         "location": "Pond",
         "shadowSize": "X Large",
-        "value": 0,
+        "value": 5500,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 6, 7, 8],
-        "image": "images/fish/Giant_Snakehead_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-giantsnakehead.png"
     },
     {
         "name": "Bluegill",
@@ -179,7 +179,7 @@
         "value": 180,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Bluegill_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-bluegill.png"
     },
     {
         "name": "Yellow Perch",
@@ -188,7 +188,7 @@
         "value": 300,
         "times": [ "All day" ],
         "months": [ 10, 11, 12, 1, 2, 3 ],
-        "image": "images/fish/Yellow_Perch_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-yellowperch.png"
     },
     {
         "name": "Black Bass",
@@ -197,7 +197,7 @@
         "value": 400,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Black_Bass_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-blackbass.png"
     },
     {
         "name": "Tilapia",
@@ -206,7 +206,7 @@
         "value": 800,
         "times": [ "All day" ],
         "months": [ 6, 7, 8, 9, 10],
-        "image": "images/fish/Tilapia_NH_Icon.png"
+        "image": "images/fish/NH-Icon-tilapia.png"
     },
     {
         "name": "Pike",
@@ -215,16 +215,16 @@
         "value": 1800,
         "times": [ "All day" ],
         "months": [ 9, 10, 11, 12],
-        "image": "images/fish/Pike_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-pike.png"
     },
     {
         "name": "Pond Smelt",
         "location": "River",
         "shadowSize": "Small",
-        "value": 0,
+        "value": 500,
         "times": [ "All day" ],
         "months": [ 12, 1, 2 ],
-        "image": "images/fish/Pond_Smelt_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-pondsmelt.png"
     },
     {
         "name": "Sweetfish",
@@ -233,7 +233,7 @@
         "value": 900,
         "times": [ "All day" ],
         "months": [ 7, 8, 9 ],
-        "image": "images/fish/Sweetfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-sweetfish.png"
     },
     {
         "name": "Cherry Salmon",
@@ -242,7 +242,7 @@
         "value": 1000,
         "times": [ "All day" ],
         "months": [ 3, 4, 5, 6, 9, 10, 11 ],
-        "image": "images/fish/Cherry_Salmon_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-cherrysalmon.png"
     },
     {
         "name": "Char",
@@ -251,7 +251,7 @@
         "value": 3800,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 3, 4, 5, 6, 9, 10, 11 ],
-        "image": "images/fish/Char_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-char.png"
     },
     {
         "name": "Golden Trout",
@@ -260,7 +260,7 @@
         "value": 15000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 3, 4, 5, 6, 9, 10, 11 ],
-        "image": "images/fish/Golden_Trout_NH_Icon.png"
+        "image": "images/fish/NH-Icon-goldentrout.png"
     },
     {
         "name": "Stringfish",
@@ -269,7 +269,7 @@
         "value": 15000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 12, 1, 2, 3 ],
-        "image": "images/fish/Stringfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-stringfish.png"
     },
     {
         "name": "Salmon",
@@ -278,7 +278,7 @@
         "value": 700,
         "times": [ "All day" ],
         "months": [ 9 ],
-        "image": "images/fish/Salmon_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-salmon.png"
     },
     {
         "name": "King Salmon",
@@ -287,7 +287,7 @@
         "value": 1800,
         "times": [ "All day" ],
         "months": [ 9 ],
-        "image": "images/fish/King_Salmon_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-kingsalmon.png"
     },
     {
         "name": "Mitten Crab",
@@ -296,16 +296,16 @@
         "value": 2000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 9, 10, 11 ],
-        "image": "images/fish/Mitten_Crab_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-mittencrab.png"
     },
     {
         "name": "Guppy",
         "location": "River",
         "shadowSize": "Smallest",
-        "value": 0,
+        "value": 1300,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 4, 5, 6, 7, 8,9, 10 , 11 ],
-        "image": "images/fish/Guppy_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-guppy.png"
     },
     {
         "name": "Nibble Fish",
@@ -314,7 +314,7 @@
         "value": 1500,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 5, 6, 7, 8, 9 ],
-        "image": "images/fish/Nibble_Fish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-nibblefish.png"
     },
     {
         "name": "Angelfish",
@@ -323,7 +323,7 @@
         "value": 3000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 5, 6, 7, 8, 9, 10 ],
-        "image": "images/fish/Angelfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-angelfish.png"
     },
     {
         "name": "Betta",
@@ -332,7 +332,7 @@
         "value": 2500,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 5, 6, 7, 8, 9, 10 ],
-        "image": "images/fish/Betta_NH_Icon.png"
+        "image": "images/fish/NH-Icon-betta.png"
     },
     {
         "name": "Neon Tetra",
@@ -341,7 +341,7 @@
         "value": 500,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 4, 5, 6, 7, 8, 9, 10, 11],
-        "image": "images/fish/Neon_Tetra_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-neontetra.png"
     },
     {
         "name": "Rainbowfish",
@@ -350,7 +350,7 @@
         "value": 800,
         "times": [ "9 AM - 4 PM" ],
         "months": [ 5, 6, 7, 8, 9, 10],
-        "image": "images/fish/Rainbowfish_NH_Icon.png"
+        "image": "images/fish/NH-Icon-rainbowfish.png"
     },
     {
         "name": "Piranha",
@@ -359,7 +359,7 @@
         "value": 2500,
         "times": [ "9 AM - 4 PM", "9 PM - 4 AM" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Piranha_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-piranha.png"
     },
     {
         "name": "Arowana",
@@ -368,7 +368,7 @@
         "value": 10000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Arowana_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-arowana.png"
     },
     {
         "name": "Dorado",
@@ -377,7 +377,7 @@
         "value": 15000,
         "times": [ "4 AM - 9 PM" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Dorado_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-dorado.png"
     },
     {
         "name": "Gar",
@@ -386,7 +386,7 @@
         "value": 6000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 7, 8, 9, 10 ],
-        "image": "images/fish/Gar_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-gar.png"
     },
     {
         "name": "Arapaima",
@@ -395,7 +395,7 @@
         "value": 10000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Arapaima_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-arapaima.png"
     },
     {
         "name": "Saddled Bichir",
@@ -404,7 +404,7 @@
         "value": 4000,
         "times": [ "9 PM - 4 AM" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Saddled_Bichir_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-saddledbichir.png"
     },
     {
         "name": "Sturgeon",
@@ -413,7 +413,7 @@
         "value": 10000,
         "times": [ "All day" ],
         "months": [ 9, 10 ,11, 12, 1, 2, 3 ],
-        "image": "images/fish/Sturgeon_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-sturgeon.png"
     },
     {
         "name": "Sea Butterfly",
@@ -422,7 +422,7 @@
         "value": 1000,
         "times": [ "All day" ],
         "months": [ 12, 1, 2, 3 ],
-        "image": "images/fish/Sea_Butterfly_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-seabutterfly.png"
     },
     {
         "name": "Sea Horse",
@@ -431,7 +431,7 @@
         "value": 1100,
         "times": [ "All day" ],
         "months": [ 4, 5, 6, 7, 8, 9, 10, 11 ],
-        "image": "images/fish/Seahorse_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-seahorse.png"
     },
     {
         "name": "Clown Fish",
@@ -440,7 +440,7 @@
         "value": 650,
         "times": [ "All day" ],
         "months": [ 4, 5, 6, 7, 8, 9 ],
-        "image": "images/fish/Clownfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-clownfish.png"
     },
     {
         "name": "Surgeonfish",
@@ -449,7 +449,7 @@
         "value": 1000,
         "times": [ "All day" ],
         "months": [ 4, 5, 6, 7, 8, 9 ],
-        "image": "images/fish/Surgeonfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-surgeonfish.png"
     },
     {
         "name": "Butterfly Fish",
@@ -458,7 +458,7 @@
         "value": 1000,
         "times": [ "All day" ],
         "months": [ 4, 5, 6, 7, 8, 9 ],
-        "image": "images/fish/Butterfly_Fish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-butterflyfish.png"
     },
     {
         "name": "Napoleonfish",
@@ -467,7 +467,7 @@
         "value": 10000,
         "times": [ "4 AM - 9 PM" ],
         "months": [ 7, 8 ],
-        "image": "images/fish/Napoleonfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-napoleonfish.png"
     },
     {
         "name": "Zebra Turkeyfish",
@@ -476,16 +476,16 @@
         "value": 500,
         "times": [ "All day" ],
         "months": [ 4, 5, 6, 7, 8, 9, 10, 11 ],
-        "image": "images/fish/Zebra_Turkeyfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-zebraturkeyfish.png"
     },
     {
         "name": "Blowfish",
         "location": "Sea",
         "shadowSize": "Medium",
-        "value": 0,
+        "value": 5000,
         "times": [ "6 PM - 4 AM" ],
         "months": [ 11, 12, 1, 2 ],
-        "image": "images/fish/Blowfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-blowfish.png"
     },
     {
         "name": "Puffer Fish",
@@ -494,7 +494,7 @@
         "value": 250,
         "times": [ "All day" ],
         "months": [ 7, 8, 9 ],
-        "image": "images/fish/Puffer_Fish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-pufferfish.png"
     },
     {
         "name": "Anchovy",
@@ -503,7 +503,7 @@
         "value": 200,
         "times": [ "4 AM - 9 PM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Anchovy_NH_Icon.png"
+        "image": "images/fish/NH-Icon-anchovy.png"
     },
     {
         "name": "Horse Mackerel",
@@ -512,7 +512,7 @@
         "value": 150,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Horse_Mackerel_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-horsemackerel.png"
     },
     {
         "name": "Barred Knifejaw",
@@ -521,7 +521,7 @@
         "value": 5000,
         "times": [ "All day" ],
         "months": [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
-        "image": "images/fish/Barred_Knifejaw_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-barredknifejaw.png"
     },
     {
         "name": "Sea Bass",
@@ -530,7 +530,7 @@
         "value": 400,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Sea_Bass_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-seabass.png"
     },
     {
         "name": "Red Snapper",
@@ -539,7 +539,7 @@
         "value": 3000,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Red_Snapper_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-redsnapper.png"
     },
     {
         "name": "Dab",
@@ -548,7 +548,7 @@
         "value": 300,
         "times": [ "All day" ],
         "months": [ 10, 11, 12, 1, 2, 3, 4 ],
-        "image": "images/fish/Dab_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-dab.png"
     },
     {
         "name": "Olive Flounder",
@@ -557,7 +557,7 @@
         "value": 800,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Olive_Flounder_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-oliveflounder.png"
     },
     {
         "name": "Squid",
@@ -566,7 +566,7 @@
         "value": 500,
         "times": [ "All day" ],
         "months": [12, 1, 2, 3, 4, 5, 6, 7, 8 ],
-        "image": "images/fish/Squid_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-squid.png"
     },
     {
         "name": "Moray Eel",
@@ -575,7 +575,7 @@
         "value": 2000,
         "times": [ "All day" ],
         "months": [ 8, 9, 10 ],
-        "image": "images/fish/Moray_Eel_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-morayeel.png"
     },
     {
         "name": "Ribbon Eel",
@@ -584,7 +584,7 @@
         "value": 600,
         "times": [ "All day" ],
         "months": [ 6, 7, 8, 9, 10 ],
-        "image": "images/fish/Ribbon_Eel_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-ribboneel.png"
     },
     {
         "name": "Tuna",
@@ -593,7 +593,7 @@
         "value": 7000,
         "times": [ "All day" ],
         "months": [ 11, 12, 1, 2, 3, 4],
-        "image": "images/fish/Tuna_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-tuna.png"
     },
     {
         "name": "Blue Marlin",
@@ -602,16 +602,16 @@
         "value": 10000,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 7, 8, 9, 11, 12 ],
-        "image": "images/fish/Blue_Marlin_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-bluemarlin.png"
     },
     {
         "name": "Giant Trevally",
         "location": "Pier",
         "shadowSize": "Large",
-        "value": 0,
+        "value": 4500,
         "times": [ "All day" ],
         "months": [ 5, 6, 7, 8, 9, 10 ],
-        "image": "images/fish/Giant_Trevally_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-gianttrevally.png"
     },
     {
         "name": "Mahi-mahi",
@@ -620,7 +620,7 @@
         "value": 6000,
         "times": [ "All day" ],
         "months": [ 5, 6, 7, 8, 9, 10 ],
-        "image": "images/fish/Mahi-Mahi_NH_Icon.png"
+        "image": "images/fish/NH-Icon-mahimahi.png"
     },
     {
         "name": "Ocean Sunfish",
@@ -629,7 +629,7 @@
         "value": 4000,
         "times": [ "4 AM - 9 PM" ],
         "months": [ 7, 8, 9 ],
-        "image": "images/fish/Ocean_Sunfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-oceansunfish.png"
     },
     {
         "name": "Ray",
@@ -638,7 +638,7 @@
         "value": 3000,
         "times": [ "4 AM - 9 PM" ],
         "months": [ 8, 9, 10, 11 ],
-        "image": "images/fish/Ray_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-ray.png"
     },
     {
         "name": "Saw Shark",
@@ -647,7 +647,7 @@
         "value": 12000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Saw_Shark_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-sawshark.png"
     },
     {
         "name": "Hammerhead Shark",
@@ -656,7 +656,7 @@
         "value": 8000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Hammerhead_Shark_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-hammerheadshark.png"
     },
     {
         "name": "Great White Shark",
@@ -665,7 +665,7 @@
         "value": 15000,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Shark_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-greatwhiteshark.png"
     },
     {
         "name": "Whale Shark",
@@ -674,7 +674,7 @@
         "value": 13000,
         "times": [ "All day" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Whale_Shark_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-whaleshark.png"
     },
     {
         "name": "Suckerfish",
@@ -683,7 +683,7 @@
         "value": 1500,
         "times": [ "All day" ],
         "months": [ 6, 7, 8, 9 ],
-        "image": "images/fish/Suckerfish_NH_Icon.png"
+        "image": "images/fish/NH-Icon-suckerfish.png"
     },
     {
         "name": "Football Fish",
@@ -692,7 +692,7 @@
         "value": 2500,
         "times": [ "4 PM - 9 AM" ],
         "months": [ 11, 12, 1, 2, 3 ],
-        "image": "images/fish/Football_Fish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-footballfish.png"
     },
     {
         "name": "Oarfish",
@@ -701,7 +701,7 @@
         "value": 9000,
         "times": [ "All day" ],
         "months": [ 12, 1, 2, 3, 4, 5 ],
-        "image": "images/fish/Oarfish_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-oarfish.png"
     },
     {
         "name": "Barreleye",
@@ -710,7 +710,7 @@
         "value": 15000,
         "times": [ "9 PM - 4 AM" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Barreleye_NH_Icon.png"
+        "image": "images/fish/NH-Icon-barreleye.png"
     },
     {
         "name": "Coelacanth",
@@ -719,6 +719,6 @@
         "value": 15000,
         "times": [ "All day" ],
         "months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-        "image": "images/fish/Coelacanth_HHD_Icon.png"
+        "image": "images/fish/NH-Icon-coelacanth.png"
     }
 ]

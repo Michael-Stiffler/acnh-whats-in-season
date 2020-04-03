@@ -5,7 +5,7 @@
 		"value": 3000,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 1, 2, 3, 10, 11, 12 ],
-		"image": "images/bugs/Agrias_Butterfly_HHD.png"
+		"image": "images/bugs/NH-Icon-agriasbutterfly.png"
 	},
 	{
 		"name": "Atlas Moth",
@@ -13,7 +13,7 @@
 		"value": 3000,
 		"times": [ "7 PM - 4 AM" ],
 		"months": [ 1, 2, 3, 10, 11, 12 ],
-		"image": "images/bugs/Atlasmoththumb.png"
+		"image": "images/bugs/NH-Icon-atlasmoth.png"
 	},
 	{
 		"name": "Ant",
@@ -21,7 +21,7 @@
 		"value": 80,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Ant_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-ant.png"
 	},
 	{
 		"name": "Bagworm",
@@ -29,7 +29,7 @@
 		"value": 600,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Bagworm_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-bagworm.png"
 	},
 	{
 		"name": "Centipede",
@@ -37,7 +37,7 @@
 		"value": 430,
 		"times": [ "4 PM - 11 PM" ],
 		"months": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/NH-Centipede.png"
+		"image": "images/bugs/NH-Icon-centipede.png"
 	},
 	{
 		"name": "Citrus Long-Horned Beetle",
@@ -45,7 +45,7 @@
 		"value": 350,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Citrus_Long-horned_Beetle_NH_icon.png"
+		"image": "images/bugs/NH-Icon-citruslonghornedbeetle.png"
 	},
 	{
 		"name": "Jewel Beetle",
@@ -53,7 +53,7 @@
 		"value": 2400,
 		"times": [ "All day" ],
 		"months": [ 4, 5, 6, 7, 8 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-jewelbeetle.png"
 	},
 	{
 		"name": "Common Butterfly",
@@ -61,7 +61,7 @@
 		"value": 160,
 		"times": [ "4 AM - 7 PM" ],
 		"months": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Common_Butterfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-commonbutterfly.png"
 	},
 	{
 		"name": "Common Bluebottle",
@@ -69,7 +69,7 @@
 		"value": 300,
 		"times": [ "4 AM - 7 PM" ],
 		"months": [ 4, 5, 6, 7, 8 ],
-		"image": "images/bugs/Common_Bluebottle_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-commonbluebottle.png"
 	},
 	{
 		"name": "Great Purple Emperor",
@@ -77,7 +77,7 @@
 		"value": 3000,
 		"times": [ "4 AM - 7 PM" ],
 		"months": [ 5, 6, 7, 8 ],
-		"image": "images/bugs/Great_Purple_Emperor_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-greatpurpleemperor.png"
 	},
 	{
 		"name": "Cricket",
@@ -85,7 +85,7 @@
 		"value": 160,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 3, 4, 5 ],
-		"image": "images/bugs/Cricket_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-cricket.png"
 	},
 	{
 		"name": "Damselfly",
@@ -93,15 +93,15 @@
 		"value": 500,
 		"times": [ "All day" ],
 		"months": [ 11, 12, 1, 2 ],
-		"image": "images/bugs/Damselfly_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-damselfly.png"
 	},
 	{
 		"name": "Firefly",
 		"location": "Flying",
-		"value": 0,
+		"value": 300,
 		"times": [ "7 PM - 4 AM" ],
 		"months": [ 6 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-firefly.png"
 	},
 	{
 		"name": "Darner Dragonfly",
@@ -109,7 +109,7 @@
 		"value": 230,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 1, 2, 3, 4, 10, 11, 12 ],
-		"image": "images/bugs/Darner_Dragonfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-darnerdragonfly.png"
 	},
 	{
 		"name": "Banded Dragonfly",
@@ -117,7 +117,7 @@
 		"value": 4500,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 1, 2, 3, 4, 11, 12 ],
-		"image": "images/bugs/Banded_Dragonfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-bandeddragonfly.png"
 	},
 	{
 		"name": "Diving Beetle",
@@ -125,7 +125,7 @@
 		"value": 800,
 		"times": [ "8 AM - 7 PM" ],
 		"months": [ 1, 2, 3, 11, 12 ],
-		"image": "images/bugs/Diving_Beetle_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-divingbeetle.png"
 	},
 	{
 		"name": "Dung Beetle",
@@ -133,7 +133,7 @@
 		"value": 2500,
 		"times": [ "All day" ],
 		"months": [ 6, 7, 8 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-dungbeetle.png"
 	},
 	{
 		"name": "Goliath Beetle",
@@ -141,7 +141,7 @@
 		"value": 8000,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 1, 2, 3, 12 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-goliathbeetle.png"
 	},
 	{
 		"name": "Earth-Boring Dung Beetle",
@@ -149,7 +149,7 @@
 		"value": 300,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3],
-		"image": "images/bugs/Earth-Boring_Dung_Beetle_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-earthboringdungbeetle.png"
 	},
 	{
 		"name": "Emperor Butterfly",
@@ -157,7 +157,7 @@
 		"value": 4000,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 12, 1, 2, 3, 6, 7, 8, 9 ],
-		"image": "images/bugs/Emperor_Butterfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-emperorbutterfly.png"
 	},
 	{
 		"name": "Flea",
@@ -165,7 +165,7 @@
 		"value": 70,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 5, 10, 11, 12 ],
-		"image": "images/bugs/NH-Flea.png"
+		"image": "images/bugs/NH-Icon-flea.png"
 	},
 	{
 		"name": "Fly",
@@ -173,7 +173,7 @@
 		"value": 60,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/NH-Fly.png"
+		"image": "images/bugs/NH-Icon-fly.png"
 	},
 	{
 		"name": "Grasshopper",
@@ -181,7 +181,7 @@
 		"value": 160,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 1, 2, 3 ],
-		"image": "images/bugs/Grasshopper_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-grasshopper.png"
 	},
 	{
 		"name": "Rice Grasshopper",
@@ -189,7 +189,7 @@
 		"value": 160,
 		"times": [ "8 AM - 7 PM" ],
 		"months": [ 2, 3, 4, 5 ],
-		"image": "images/bugs/Rice_Grasshopper_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-ricegrasshopper.png"
 	},
 	{
 		"name": "Hermit Crab",
@@ -197,7 +197,7 @@
 		"value": 1000,
 		"times": [ "7 PM - 8 AM" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Hermit_Crab_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-hermitcrab.png"
 	},
 	{
 		"name": "Honeybee",
@@ -205,7 +205,7 @@
 		"value": 200,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 1, 9, 10, 11, 12 ],
-		"image": "images/bugs/Honeybee_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-honeybee.png"
 	},
 	{
 		"name": "Ladybug",
@@ -213,7 +213,7 @@
 		"value": 200,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 3, 4, 5, 6, 10 ],
-		"image": "images/bugs/Ladybug_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-ladybug.png"
 	},
 	{
 		"name": "Long Locust",
@@ -221,7 +221,7 @@
 		"value": 200,
 		"times": [ "8 AM - 7 PM" ],
 		"months": [ 1, 2, 3, 4, 5, 10, 11, 12 ],
-		"image": "images/bugs/Long_Locust_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-longlocust.png"
 	},
 	{
 		"name": "Madagascan Sunset Moth",
@@ -229,7 +229,7 @@
 		"value": 2500,
 		"times": [ "8 AM - 4 PM" ],
 		"months": [ 1, 2, 3, 10, 11, 12 ],
-		"image": "images/bugs/Madagascan_Sunset_Moth_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-madagascansunsetmoth.png"
 	},
 	{
 		"name": "Man-Faced Stink Bug",
@@ -237,7 +237,7 @@
 		"value": 1000,
 		"times": [ "7 PM - 8 AM" ],
 		"months": [ 1, 2, 3, 4, 9, 10, 11, 12 ],
-		"image": "images/bugs/Man-faced_Stink_Bug_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-manfacedstinkbug.png"
 	},
 	{
 		"name": "Mantis",
@@ -245,7 +245,7 @@
 		"value": 430,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 1, 2, 3, 4, 5, 9, 10, 11, 12 ],
-		"image": "images/bugs/Mantis_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-mantis.png"
 	},
 	{
 		"name": "Migratory Locust",
@@ -253,7 +253,7 @@
 		"value": 200,
 		"times": [ "8 AM - 7 PM" ],
 		"months": [ 2, 3, 4, 5 ],
-		"image": "images/bugs/Migratory_Locust_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-migratorylocust.png"
 	},
 	{
 		"name": "Mole Cricket",
@@ -261,7 +261,7 @@
 		"value": 500,
 		"times": [ "All day" ],
 		"months": [ 5, 6, 7, 8, 9, 10, 11 ],
-		"image": "images/bugs/Mole_Cricket_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-molecricket.png"
 	},
 	{
 		"name": "Bell Cricket",
@@ -269,7 +269,7 @@
 		"value": 430,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 3, 4 ],
-		"image": "images/bugs/Bell_Cricket_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-bellcricket.png"
 	},
 	{
 		"name": "Monarch Butterfly",
@@ -277,7 +277,7 @@
 		"value": 140,
 		"times": [ "4 AM - 5 PM" ],
 		"months": [ 3, 4, 5 ],
-		"image": "images/bugs/Monarch_Butterfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-monarchbutterfly.png"
 	},
 	{
 		"name": "Mosquito",
@@ -285,7 +285,7 @@
 		"value": 130,
 		"times": [ "5 PM - 4 AM" ],
 		"months": [ 12, 1, 2, 3 ],
-		"image": "images/bugs/NH-Mosquito.png"
+		"image": "images/bugs/NH-Icon-mosquito.png"
 	},
 	{
 		"name": "Moth",
@@ -293,7 +293,7 @@
 		"value": 130,
 		"times": [ "7 PM - 4 AM" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Moth_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-moth.png"
 	},
 	{
 		"name": "Orchid Mantis",
@@ -301,7 +301,7 @@
 		"value": 2400,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 1, 2, 3, 4, 5, 9, 10, 11, 12 ],
-		"image": "images/bugs/Orchid_Mantis_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-orchidmantis.png"
 	},
 	{
 		"name": "Paper Kite Butterfly",
@@ -309,7 +309,7 @@
 		"value": 1000,
 		"times": [ "8 AM - 7 PM" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Paper_Kite_Butterfly_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-paperkitebutterfly.png"
 	},
 	{
 		"name": "Peacock Butterfly",
@@ -317,7 +317,7 @@
 		"value": 2500,
 		"times": [ "4 AM - 7 PM" ],
 		"months": [ 9, 10, 11, 12 ],
-		"image": "images/bugs/Peacock_Butterfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-peacockbutterfly.png"
 	},
 	{
 		"name": "Blue Weevil Beetle",
@@ -325,7 +325,7 @@
 		"value": "?",
 		"times": [ "All day" ],
 		"months": [ 7,8 ],
-		"image": "images/bugs/Blue_Weevil_Beetle_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-blueweevilbeetle.png"
 	},
 	{
 		"name": "Pill Bug",
@@ -333,7 +333,7 @@
 		"value": 250,
 		"times": [ "11 PM - 4 PM" ],
 		"months": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/NH-Pill-Bug.png"
+		"image": "images/bugs/NH-Icon-pillbug.png"
 	},
 	{
 		"name": "Pondskater",
@@ -341,7 +341,7 @@
 		"value": 130,
 		"times": [ "8 AM - 7 PM" ],
 		"months": [ 1, 2, 3, 11, 12 ],
-		"image": "images/bugs/Pondskater_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-pondskater.png"
 	},
 	{
 		"name": "Queen Alexandra’s Birdwing",
@@ -349,7 +349,7 @@
 		"value": 4000,
 		"times": [ "8 AM - 4 PM" ],
 		"months": [ 1, 2, 3, 11, 12 ],
-		"image": "images/bugs/Queenalex.png"
+		"image": "images/bugs/NH-Icon-queenalexandrasbirdwing.png"
 	},
 	{
 		"name": "Rajah Brooke’s Birdwing",
@@ -357,7 +357,7 @@
 		"value": 2500,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 1, 2, 3, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Rajahbrookes.png"
+		"image": "images/bugs/NH-Icon-rajahbrookesbirdwing.png"
 	},
 	{
 		"name": "Red Dragonfly",
@@ -365,7 +365,7 @@
 		"value": 180,
 		"times": [ "8 AM - 7 PM" ],
 		"months": [ 3, 4 ],
-		"image": "images/bugs/Red_Dragonfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-reddragonfly.png"
 	},
 	{
 		"name": "Rosalia Batsei Beetle",
@@ -373,7 +373,7 @@
 		"value": 3000,
 		"times": [ "7 PM - 8 AM" ],
 		"months": [ 1, 2, 3, 11, 12],
-		"image": "images/bugs/Rosalia_Batesi_Beetle_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-rosaliabatesibeetle.png"
 	},
 	{
 		"name": "Giant Water Bug",
@@ -381,23 +381,23 @@
 		"value": 2000,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 10, 11, 12 ],
-		"image": "images/bugs/Giant_Water_Bug_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-giantwaterbug.png"
 	},
 	{
 		"name": "Saw Stag",
 		"location": "Trees",
-		"value": 0,
+		"value": 2000,
 		"times": [ "All day" ],
 		"months": [ 7, 8 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-sawstag.png"
 	},
 	{
 		"name": "Miyama Stag",
 		"location": "Trees",
-		"value": 0,
+		"value": 1000,
 		"times": [ "All day" ],
 		"months": [ 7, 8 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-miyamastag.png"
 	},
 	{
 		"name": "Giant Stag",
@@ -405,7 +405,7 @@
 		"value": 10000,
 		"times": [ "11 PM - 8 AM" ],
 		"months": [ 7, 8 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-giantstag.png"
 	},
 	{
 		"name": "Rainbow Stag",
@@ -413,15 +413,15 @@
 		"value": 6000,
 		"times": [ "7 PM - 8 AM" ],
 		"months": [ 1, 2, 3, 12 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-rainbowstag.png"
 	},
 	{
 		"name": "Cyclommatus Stag",
 		"location": "Trees",
-		"value": 0,
+		"value": 8000,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 7, 8],
-		"image": ""
+		"image": "images/bugs/NH-Icon-cyclommatusstag.png"
 	},
 	{
 		"name": "Golden Stag",
@@ -429,7 +429,7 @@
 		"value": 0,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 7, 8],
-		"image": ""
+		"image": "images/bugs/NH-Icon-goldenstag.png"
 	},
 	{
 		"name": "Giraffe Stag",
@@ -437,31 +437,31 @@
 		"value": 0,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 7, 8],
-		"image": "images/bugs/Giraffe_Stag_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-giraffestag.png"
 	},
 	{
 		"name": "Horned Dynastid",
 		"location": "Trees",
-		"value": 0,
+		"value": 1350,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 7, 8],
-		"image": ""
+		"image": "images/bugs/NH-Icon-horneddynastid.png"
 	},
 	{
 		"name": "Horned Atlas",
 		"location": "Trees",
-		"value": 0,
+		"value": 8000,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 7, 8],
-		"image": ""
+		"image": "images/bugs/NH-Icon-hornedatlas.png"
 	},
 	{
 		"name": "Horned Elephant",
 		"location": "Trees",
-		"value": 0,
+		"value": 8000,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 7, 8],
-		"image": ""
+		"image": "images/bugs/NH-Icon-hornedelephant.png"
 	},
 	{
 		"name": "Horned Hercules",
@@ -469,7 +469,7 @@
 		"value": 0,
 		"times": [ "5 PM - 8 AM" ],
 		"months": [ 7, 8],
-		"image": ""
+		"image": "images/bugs/NH-Icon-hornedhercules.png"
 	},
 	{
 		"name": "Scorpion",
@@ -477,7 +477,7 @@
 		"value": 8000,
 		"times": [ "7 PM - 4 AM" ],
 		"months": [ 1, 2, 3, 4, 11, 12 ],
-		"image": "images/bugs/NH-Scorpion.png"
+		"image": "images/bugs/NH-Icon-scorpion.png"
 	},
 	{
 		"name": "Snail",
@@ -485,7 +485,7 @@
 		"value": 250,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/NH-Snail.png"
+		"image": "images/bugs/NH-Icon-snail.png"
 	},
 	{
 		"name": "Spider",
@@ -493,7 +493,7 @@
 		"value": 600,
 		"times": [ "7 PM - 8 AM" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/NH-Spider.png"
+		"image": "images/bugs/NH-Icon-spider.png"
 	},
 	{
 		"name": "Stinkbug",
@@ -501,7 +501,7 @@
 		"value": 120,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 9, 10, 11, 12 ],
-		"image": "images/bugs/Stinkbug_(New_Leaf_icon).PNG.png"
+		"image": "images/bugs/NH-Icon-stinkbug.png"
 	},
 	{
 		"name": "Tarantula",
@@ -509,7 +509,7 @@
 		"value": 8000,
 		"times": [ "7 PM - 4 AM" ],
 		"months": [ 5, 6, 7, 8, 9, 10 ],
-		"image": "images/bugs/NH-Tarantula.png"
+		"image": "images/bugs/NH-Icon-tarantula.png"
 	},
 	{
 		"name": "Tiger Beetle",
@@ -517,23 +517,23 @@
 		"value": 1500,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Tiger_Beetle_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-tigerbeetle.png"
 	},
 	{
 		"name": "Scarab Beetle",
 		"location": "Tree",
-		"value": 0,
+		"value": 10000,
 		"times": [ "11 PM - 8 AM" ],
 		"months": [ 7, 8 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-scarabbeetle.png"
 	},
 	{
 		"name": "Drone Beetle",
 		"location": "Tree",
-		"value": 0,
+		"value": 200,
 		"times": [ "All day" ],
 		"months": [ 6, 7, 8 ],
-		"image": "images/bugs/Drone_Beetle_NH_Icon.PNG.png"
+		"image": "images/bugs/NH-Icon-dronebeetle.png"
 	},
 	{
 		"name": "Tiger Butterfly",
@@ -541,7 +541,7 @@
 		"value": 240,
 		"times": [ "4 AM - 7 PM" ],
 		"months": [ 1, 2, 3, 9, 10, 11, 12 ],
-		"image": "images/bugs/Tiger_Butterfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-tigerbutterfly.png"
 	},
 	{
 		"name": "Violin Beetle",
@@ -549,47 +549,47 @@
 		"value": 450,
 		"times": [ "All day" ],
 		"months": [ 3, 4, 5, 11, 12 ],
-		"image": "images/bugs/Violinbeetle.png"
+		"image": "images/bugs/NH-Icon-violinbeetle.png"
 	},
 	{
 		"name": "Brown Cicada",
 		"location": "Tree",
-		"value": 0,
+		"value": 250,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 7, 8 ],
-		"image": "images/bugs/Brown_Cicada_HHD.png"
+		"image": "images/bugs/NH-Icon-browncicada.png"
 	},
 	{
 		"name": "Robust Cicada",
 		"location": "Tree",
-		"value": 0,
+		"value": 300,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 7, 8 ],
-		"image": "images/bugs/Robust_Cicada_HHD.png"
+		"image": "images/bugs/NH-Icon-robustcicada.png"
 	},
 	{
 		"name": "Giant Cicada",
 		"location": "Tree",
-		"value": 0,
+		"value": 500,
 		"times": [ "8 AM - 5 PM" ],
 		"months": [ 7, 8 ],
-		"image": "images/bugs/Giant_Cicada_HHD.png"
+		"image": "images/bugs/NH-Icon-giantcicada.png"
 	},
 	{
 		"name": "Evening Cicada",
 		"location": "Tree",
-		"value": 0,
+		"value": 550,
 		"times": [ "4 AM - 8 AM", "4 PM - 7 PM" ],
 		"months": [ 7, 8 ],
-		"image": "images/bugs/Evening_Cicada_HHD.png"
+		"image": "images/bugs/NH-Icon-eveningcicada.png"
 	},
 	{
 		"name": "Cicada Shell",
 		"location": "Tree",
-		"value": 0,
+		"value": 10,
 		"times": [ "All day" ],
 		"months": [ 7, 8 ],
-		"image": "images/bugs/Cicada_Shell_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-cicadashell.png"
 	},
 	{
 		"name": "Walker Cicada",
@@ -597,7 +597,7 @@
 		"value": 400,
 		"times": [ "8 AM - 4 PM" ],
 		"months": [ 2, 3 ],
-		"image": "images/bugs/Walker_Cicada_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-walkercicada.png"
 	},
 	{
 		"name": "Walking Leaf",
@@ -605,7 +605,7 @@
 		"value": 600,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3 ],
-		"image": "images/bugs/Walking_Leaf_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-walkingleaf.png"
 	},
 	{
 		"name": "Walking Stick",
@@ -613,7 +613,7 @@
 		"value": 600,
 		"times": [ "4 AM - 8 AM", "4 PM - 8 PM" ],
 		"months": [ 1, 2, 3, 4, 5 ],
-		"image": ""
+		"image": "images/bugs/NH-Icon-walkingstick.png"
 	},
 	{
 		"name": "Wasp",
@@ -621,7 +621,7 @@
 		"value": 2500,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Bee_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-wasp.png"
 	},
 	{
 		"name": "Wharf Roach",
@@ -629,7 +629,7 @@
 		"value": 200,
 		"times": [ "All day" ],
 		"months": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		"image": "images/bugs/Wharf_Roach_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-wharfroach.png"
 	},
 	{
 		"name": "Yellow Butterfly",
@@ -637,6 +637,6 @@
 		"value": 160,
 		"times": [ "4 AM - 7 PM" ],
 		"months": [ 3, 4, 9, 10, 11, 12 ],
-		"image": "images/bugs/Yellow_Butterfly_HHD_Icon.png"
+		"image": "images/bugs/NH-Icon-yellowbutterfly.png"
 	}
 ]
